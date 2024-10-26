@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AL+TWz19VTVtQvBXMIRTnnpaFqU9QUbZ18A1b2Y3YT0Q2vJztJM4zUqKYtPRMZNQOMj3fvIwzxNZhoTbvixDBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cinar\\Desktop\\aspnet\\ProductCategoryApp\\ProductCategoryApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cinar\\.nuget\\packages\\system.net.http.json\\8.0.1\\system.net.http.json.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
