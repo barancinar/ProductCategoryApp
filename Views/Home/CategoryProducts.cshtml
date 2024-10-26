@@ -7,11 +7,13 @@
 <div>
     @foreach (var product in Model)
     {
-        <div style="border: 1px solid #ddd; padding:10px; margin-bottom: 10px;">
-            <h3>@product.Title</h3>
-            <p>@product.Description</p>
-            <p>Price: @product.Price</p>
-            <img src="@product.Thumbnail" alt="@product.Title" width="100">
+        <div class="card p-2 my-3">
+            <img src="@product.Thumbnail" alt="@product.Title" width="150" class="img-thumbnail">
+            <div class="card-body">
+                <h3>@product.Title</h3>
+                <p>@product.Description</p>
+                <p class="fw-bold mb-1 h6">Price: @product.Price</p>
+            </div>
         </div>
     }
 </div>

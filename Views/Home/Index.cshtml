@@ -2,12 +2,13 @@
 @{
     ViewData["Title"] = "Product Categories";
 }
-<h2>Product Categories</h2>
-<ul>
+<h2 class="h2 my-3">Product Categories</h2>
+<ul class="list-group">
     @foreach (var category in Model)
     {
-        <li>
-            <a asp-action="CategoryProducts" asp-route-category="@category.Name">@category.Name</a>
+        <li class="list-group-item list-group-flush">
+            <a asp-action="CategoryProducts" asp-route-category="@category.Name"
+                class="list-group-item list-group-item-action h6">@category.Name</a>
         </li>
     }
 </ul>
